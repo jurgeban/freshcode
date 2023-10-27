@@ -8,7 +8,7 @@ body {
  font-size: 37px;
  color: #926239;
 }
-header {
+.head {
 	background: url("../img/beach.jpg");
 	background-size: cover;
 	padding-top: 38vh;
@@ -17,35 +17,37 @@ header {
     text-align: center;
 	border: 1px solid #926239;
 }
-h1 {
+.headline {
 	font-size: 55px;
 }
-h6 {
+p {
  font-weight: normal;
  font-size: 22px;
  margin: 8px auto 25px;
 }
-button {
+.button {
 	padding:13px 22px;
 	font-size: 20px;
 	color: #926239;
 	border-radius: 11px;
 	border: 1px solid #926239;
 }
-button:hover, .color {
-	background: #926239;
-	color: white;
-}
-section {
+.topic, 
+ .smallHeadLine {
 	padding: 15px 25px;
 	font-size: 18px;
 	text-align: center;
 	line-height: 1.6em;
 }
-footer {
+.smallHeadLine {
+	display: inline-block;
+	padding: 0;
+	font-weight: normal;
+}
+.footer {
 	width: 100%;
 }
-div {
+.footerText {
 	display: initial;
 	width: 32.92%;
 	display: inline-block;
@@ -53,4 +55,8 @@ div {
 	font-size: 18px;
 	line-height: 1.6em;
 	color: #926239;
+}
+.button:hover, .color {
+	background: #926239;
+	color: white;
 }
