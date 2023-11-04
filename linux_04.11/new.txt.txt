@@ -1,0 +1,9 @@
+11/04/23
+Filesystem                Size      Used Available Use% Mounted on
+/dev/root                 4.9G      2.3G      2.6G  47% /
+   1 cat new.txt
+   2 pwd
+   3 df -h / >> new.txt
+   4 cat new.txt
+   5 history | tail -5 >> new.txt
+AuthenticX86
